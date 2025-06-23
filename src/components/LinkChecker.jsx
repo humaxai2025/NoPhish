@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FiLink, FiAlertTriangle, FiCheckCircle } from 'react-icons/fi'
-import { analyzeLink } from '../utils/analysis'
+import { analyzeEmail } from '../../utils/analysis';
 import ResultCard from './ResultCard'
 
 export default function LinkChecker() {
